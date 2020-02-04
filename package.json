@@ -1,0 +1,22 @@
+{
+  "name": "socket-controle-pad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mimya01/controle-pad.git"
+  },
+  "author": "mimya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimya01/controle-pad/issues"
+  },
+  "homepage": "https://github.com/mimya01/controle-pad#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
