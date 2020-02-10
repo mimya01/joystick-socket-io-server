@@ -5,11 +5,8 @@ io.on('connection', client => {
     console.log('new client connected')
     client.on('direction', data => {
         console.log(data)
-        client.broadcast.emit(data.Degree)
+        client.broadcast.emit(data)
     });
-    /* client.on('event', data => {
-        console.log(data)
-    }); */
     client.on('disconnect', () => {
         console.log('client connected')
     })
